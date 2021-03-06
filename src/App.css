@@ -1,0 +1,18 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.coin-input{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2.5rem;
+  width: 350px;
+  margin-top: 40px;
+outline: none;
+}
+.coin-input::placeholder, input{
+  padding-left: 10px;
+}

@@ -1,0 +1,104 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+.container{
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ flex-direction: column;
+ color: white;
+ background-color: black;
+}
+
+.row{
+ display: flex;
+ flex-direction: row;
+ justify-items: start;
+ justify-content: center;
+ align-items: center;
+ height: 70px;
+ width:100%;
+ 
+}
+
+.row h1{
+ font-size: 20px;
+ width: 150px;
+
+}
+
+/* .coins{
+ margin-right: 10px;
+} */
+
+.coins img{
+ height: 40px;
+ width: 40px;
+}
+
+
+.symbol{
+ text-transform: uppercase;
+ margin-right: 30px;
+}
+
+.price-volume{
+ 
+    display: flex;
+    justify-items:center;
+    align-items: center;
+    width: 100%;
+}
+ .price{
+  width: 100px;
+ 
+ }
+.volume{
+ width: 150px;
+}
+.coin-percent{
+  
+ width: 80px;
+
+}
+.marketCap{
+ width: 150px;
+}
+
+@media only screen and (max-width: 700px  ) {
+    .row {
+        width: 100%;
+      /* background-color: lightblue; */
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      margin: auto;
+     
+    }
+    .price-volume{
+        display: flex;
+    justify-items:center;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    }
+
+  }
+
+ .red{
+  color: red;
+ }
+
+ .green{
+  color: green;
+ }
+
+ .line{
+  background-color: beige;
+  height: 2px;
+  width: 100%;
+ }
